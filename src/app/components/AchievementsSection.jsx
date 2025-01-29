@@ -26,7 +26,8 @@ const achievementsList = [
   },
   {
     metric: "Hours of Coding",
-    value: "1000+",
+    value: "1000",
+    postfix: "+",
   },
 ];
 

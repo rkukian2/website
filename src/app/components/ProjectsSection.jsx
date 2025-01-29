@@ -7,55 +7,55 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Room Hero",
+    description: "Study Spot Finder",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Entrepreneurship"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Makeshift Maps",
+    description: "Shortest Path Finder for Glacier National Park",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Personal"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "React from Scratch",
+    description: "React Engine Mimic",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Personal"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Xperience",
     description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Entrepreneurship"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Nasa API",
+    description: "Nasa Daily Pic Displayer",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Personal"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Simple ToDo List",
+    description: "React Based ToDo List",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Personal"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Personal"
+          isSelected={tag === "Personal"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Entrepreneurship"
+          isSelected={tag === "Entrepreneurship"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
